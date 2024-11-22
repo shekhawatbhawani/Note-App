@@ -1,6 +1,3 @@
-console.log("Raj Shekhawat");
-
-
 let app = document.querySelector(".app")
 let button = document.querySelector(".btn")
 
@@ -14,5 +11,4 @@ button.addEventListener("click",(event)=>{
 
 window.addEventListener("beforeunload" ,function (event){
     event.preventDefault()
-    event.returnValue = ""
 })
